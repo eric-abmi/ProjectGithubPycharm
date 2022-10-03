@@ -1,7 +1,14 @@
 # This is a sample Python script.
+import arcpy
 import pandas as pd
+from arcpy import management
+
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+fc = r'c:/hh/ll'
+
+print(arcpy.management.GetCount(fc))
 
 
 def print_hi(name):
