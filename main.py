@@ -9,6 +9,7 @@ from arcpy import management
 fc = r'c:/hh/ll'
 
 print(arcpy.management.GetCount(fc))
+where_clause = f""""""
 
 
 def print_hi(name):
