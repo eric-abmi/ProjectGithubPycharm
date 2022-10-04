@@ -23,5 +23,15 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-df = pd.DataFrame({'C1':['a','b','c'],'C2':[2,4,6]})
+df = pd.DataFrame({'C1': ['a', 'b', 'c'], 'C2': [2, 4, 6]})
 df.info()
+
+# to be erased
+# to be erased
+# to be erased
+# to be erased
+# to be erased
+# to be erased
+# to be erased
+# to be erased
+# to be erased
