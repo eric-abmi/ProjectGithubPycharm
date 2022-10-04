@@ -1,5 +1,6 @@
 # functions
 # comments
+# comment2
 def count(gdb, fc):
     import arcpy
     from arcpy import management
