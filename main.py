@@ -26,6 +26,10 @@ if __name__ == '__main__':
 df = pd.DataFrame({'C1': ['a', 'b', 'c'], 'C2': [2, 4, 6]})
 df.info()
 
+with arcpy.da.SearchCursor(fc, 'UID') as cursor:
+    for row in cursor:
+        print(row)
+
 # to be erased
 # to be erased
 # to be erased
